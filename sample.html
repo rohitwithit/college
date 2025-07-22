@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dropdown Example</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navbar container */
+    .navbar {
+      background-color: #002b5c;
+      overflow: hidden;
+      display: flex;
+    }
+
+    .navbar a,
+    .navbar button {
+      color: white;
+      padding: 16px 20px;
+      text-decoration: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .navbar a:hover,
+    .navbar button:hover {
+      background-color: #004080;
+    }
+
+    /* Dropdown container */
+    .dropdown {
+      position: relative;
+    }
+
+    /* Dropdown content (hidden by default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+      top: 100%;
+      left: 0;
+      border-radius: 5px;
+    }
+
+    /* Dropdown links */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      display: block;
+      text-decoration: none;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    /* Show dropdown when hovering */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#">Home</a>
+
+  <div class="dropdown">
+    <button>Students ▾</button>
+    <div class="dropdown-content">
+      <a href="#">SFC Schedule</a>
+      <a href="#">Hall Ticket</a>
+      <a href="#">Syllabus</a>
+      <a href="#">Question Paper</a>
+      <a href="#">Courses</a>
+      <a href="#">Scholarships</a>
+      <a href="#">Examinations</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button>Application ▾</button>
+    <div class="dropdown-content">
+      <a href="#">UG Form</a>
+      <a href="#">PG Form</a>
+    </div>
+  </div>
+
+  <a href="#">Admission AY2024-25</a>
+  <a href="#">Department-Student</a>
+  <a href="#">Downloads</a>
+  <a href="#">Circular</a>
+</div>
+
+</body>
+</html>
