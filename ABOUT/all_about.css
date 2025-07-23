@@ -81,7 +81,7 @@ body {
 
 #text {
     background-color: white;
-    width: 65%;
+    width: 70%;
     border-radius: 8px;
     margin-right: 5%;
     margin-bottom: 50px;
@@ -90,14 +90,17 @@ body {
 
 #title1 {
     font-family: 'Times New Roman', Times, serif;
-    padding-left: 50px;
+    padding-left: 20px;
     padding-top: 20px;
+    color: #98CD00;
+    text-decoration: underline #98CD00;
 }
 
 #about_text {
     padding-left: 50px;
     padding-right: 50px;
 }
+
 #main_div {
     background-color: white;
     width: 90%;
@@ -114,6 +117,7 @@ body {
 #sidebar {
     background-color: white;
     width: 20%;
+    height: 630px;
     border-radius: 8px;
     border: 5px solid rgb(175, 174, 174);
     padding: 0;
@@ -165,6 +169,76 @@ body {
     color: white;
 }
 
-#side_about{
+#side_faculty {
     background-color: #aeff00;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+thead {
+    background-color: #333;
+    color: white;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+}
+
+td strong {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 4px;
+    color: #000;
+}
+
+td span {
+    color: #666;
+    font-size: 14px;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.profile-btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+    width: 100px;
+}
+
+.profile-btn:hover {
+    background-color: #388e3c;
+}
+
+#title2{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #98CD00;
+    text-decoration: underline #98CD00;
+}
+.NT_Staff{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    font-size: large;
+    font-weight:bold ;
+
 }
