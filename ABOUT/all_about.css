@@ -169,10 +169,6 @@ body {
     color: white;
 }
 
-#side_faculty {
-    background-color: #aeff00;
-}
-
 table {
     width: 100%;
     border-collapse: collapse;
@@ -228,17 +224,72 @@ tr:hover {
     background-color: #388e3c;
 }
 
-#title2{
+#title2 {
     font-family: 'Times New Roman', Times, serif;
     padding-left: 20px;
     padding-top: 20px;
     color: #98CD00;
     text-decoration: underline #98CD00;
 }
-.NT_Staff{
+
+.NT_Staff {
     font-family: 'Times New Roman', Times, serif;
     padding-left: 20px;
     font-size: large;
-    font-weight:bold ;
+    font-weight: bold;
 
 }
+
+
+
+
+
+/* syllabus page */
+
+
+
+
+
+table.curriculum-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.curriculum-table thead th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.curriculum-table th[colspan] {
+    text-align: center;
+    font-size: 18px;
+    background-color: #333;
+}
+
+.curriculum-table tbody td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.download-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 14px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s;
+
+}
+
+.download-btn:hover {
+    background-color: #388e3c;
+}
+

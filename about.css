@@ -97,6 +97,7 @@ body {
 #about_text {
     padding-left: 50px;
     padding-right: 50px;
+    text-align: justify;
 }
 #main_div {
     background-color: white;
@@ -166,5 +167,5 @@ body {
 }
 
 #side_about{
-    background-color: #aeff00;
+    background-color: #4CAF50;
 }
