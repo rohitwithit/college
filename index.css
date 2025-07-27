@@ -204,6 +204,7 @@
      overflow: hidden;
      z-index: 1;
      border: 10px solid white;
+     border-radius: 10px;
 
 
  }
@@ -235,6 +236,7 @@
  }
  .director:hover{
     background-color: #343c64;
+    
  }
 
  
