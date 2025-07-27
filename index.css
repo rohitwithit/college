@@ -228,7 +228,7 @@
      left: 0;
      height: 100%;
      width: 100%;
-     background-image: url('background.jpg');
+     background-image: url('sourse/background.jpg');
      background-size: cover;
      background-position: center;
      opacity: 0.6;
@@ -286,7 +286,7 @@
 }
 
 .profile-btn:hover {
-    background-color: #388e3c;
+    background-color: #161b46;
 }
 
  /* footer  */

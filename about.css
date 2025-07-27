@@ -85,7 +85,7 @@
 
  #text {
      background-color: white;
-     width: 65%;
+     width: 70%;
      border-radius: 8px;
      margin-right: 5%;
      margin-bottom: 50px;
@@ -106,9 +106,8 @@
 
  #main_div {
      background-color: white;
-     width: 90%;
+     width: 100%;
      border-radius: 8px;
-     margin-left: 5%;
      margin-bottom: 50px;
      position: relative;
      display: flex;
@@ -118,10 +117,10 @@
  }
 
  #sidebar {
-     background-color: white;
+     background-color: #161b46;
      width: 20%;
      border-radius: 8px;
-     border: 5px solid rgb(175, 174, 174);
+     border: 5px solid rgb(255, 255, 255);
      padding: 0;
      box-sizing: border-box;
  }
@@ -135,10 +134,10 @@
  .side_heading {
      width: 100%;
      height: 55px;
-     border: 2px solid black;
-     padding: 10px;
+     padding-left: 30px;
+     padding-top: 10px;
      list-style: none;
-     text-align: center;
+     text-align: left;
      font-weight: bold;
      margin: 0;
      border-radius: 0;
@@ -148,14 +147,10 @@
      justify-content: center;
  }
 
- .side_li {
-     background-color: #f2f2f2;
-     margin-top: 8px;
- }
 
  .side_li a {
      text-decoration: none;
-     color: black;
+     color: rgb(255, 255, 255);
      display: block;
      width: 100%;
      height: 100%;
