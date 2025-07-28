@@ -15,31 +15,77 @@
         }
 
         .phd-section {
-            background-color: #f9f9f9;
+            background-color: #e2e2e2;
             padding-left: 100px;
             padding-top: 50px;
             padding-right: 100px;
-            border-left: 4px solid #007bff;
+            border-top: 4px solid #007bff;
             border-radius: 8px;
             width: 90%;
             margin: auto;
             font-family: Arial, sans-serif;
         }
 
-        .phd-section h2 {
-            margin-bottom: 10px;
-            color: #ff0000;
+        table {
+            width: 100%;
+            max-width: 1100px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        .phd-section ul {
-            list-style-type: disc;
-            padding-left: 20px;
-            margin-bottom: 15px;
+        th,
+        td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            vertical-align: top;
         }
 
-        .phd-section p {
+        th {
+            background-color: #333;
+            color: white;
+            text-align: left;
+            text-transform: uppercase;
+        }
+
+        .full-row {
+            background-color: #333;
+            color: white;
             font-weight: bold;
-            color: #555;
+            text-align: center;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 18px;
+        }
+
+        button {
+            padding: 8px 16px;
+            border: 1px solid #4CAF50;
+            background-color: blue;
+            color: #ffffff;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+
+        button:hover {
+            background-color: #388e3c;
+            color: white;
+        }
+
+        .btn-link {
+            text-decoration: none;
+            background-color: blue;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            display: inline-block;
+        }
+
+        .btn-link:hover {
+            background-color: #388e3c;
         }
     </style>
 </head>
@@ -56,6 +102,7 @@
             <img src="../sourse/logo_2.jpg" alt="logo2" id="img_2" />
         </div>
     </div>
+
     <!-- Navigation -->
     <div id="section_2">
         <a href="../index.html" class="navbutt">Home</a>
@@ -116,13 +163,25 @@
 
     </div>
     <div class="phd-section">
-        <h2>The School offers Ph.D. programmes for the following subjects:</h2>
-        <ul>
-            <li>Ph.D. (Computer Sciences)</li>
-            <li>Ph.D. (Information Technology)</li>
-            <li>Ph.D. (Computer Management)</li>
-        </ul>
-        <p>Admission to Ph.D. Programmes is done on the basis of entrance test.</p>
+        <table border="1" cellspacing="0" cellpadding="10" width="100%">
+            <tr style="background-color: #8BC500; color: white; text-align: center;">
+                <th>Certificate Course</th>
+                <th>Information Brochure</th>
+                <th>Apply Online</th>
+            </tr>
+
+            <tr>
+                <td>Certificate Course on Cyber Security</td>
+                <td><a href="SOURSE/cyber.pdf" class="btn-link" target="_blank">Information Brochure</a></td>
+                 <td><a href="apply.html" class="btn-link" target="_blank">Apply Online</a></td>
+            </tr>
+
+            <tr>
+                <td>Certificate Course in Go Programming</td>
+                <td><a href="SOURSE/go_lang.pdf" class="btn-link" target="_blank">Information Brochure</a></td>
+                 <td><a href="apply.html" class="btn-link" target="_blank">Apply Online</a></td>
+            </tr>
+        </table>
     </div>
 
     <!-- footer -->
