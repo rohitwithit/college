@@ -55,6 +55,8 @@ body {
     background-color: rgb(255, 255, 255);
     width: 100%;
     border-bottom: 5px solid #343c64;
+    position: relative;
+    z-index: 10;
 }
 
 .navbutt {
