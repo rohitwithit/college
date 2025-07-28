@@ -160,6 +160,10 @@
  .side_li:hover {
      background-color: #dcdcdc;
  }
+  .side_li a:hover{
+     color: #161b46;
+ }
+
 
  .side_heading {
      background-color: black;
