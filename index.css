@@ -187,11 +187,11 @@
  /* Scroll animation */
  @keyframes scrollNews {
      0% {
-         transform: translateY(0%);
+         transform: translateX(0%);
      }
 
      100% {
-         transform: translateY(-50%);
+         transform: translateX(-50%);
          /* Adjust this as needed */
      }
  }
